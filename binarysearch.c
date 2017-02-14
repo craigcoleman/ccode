@@ -1,10 +1,12 @@
 		//compile gcc bsearch.c -o bsearch  
 		// run  ./bsearch
 #include <stdio.h>
+//#include <stdlib.h>
 int bsearch( int a[], int key);	
 
 int main()
 {
+	time_t t;
 	int arr[30] = {2,5,6,11,12,13};
 	int searchValue = 11;
 	int index = bsearch(arr,searchValue);

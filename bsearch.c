@@ -1,9 +1,8 @@
 		//compile gcc bsearch.c -o bsearch  
 		// run  ./bsearch
-		#include <stdio.h>
-		#include <stdlib.h>
-		
-	
+#include <stdio.h>
+
+		int bsearch( int array[], int key);
 		
 		int main()
 		{
@@ -12,7 +11,7 @@
 		int searchValue = 11;
 		int index = bsearch(array,searchValue);
 		 printf("Found 11 at %d \n\n", index);
-		 return 0;
+
 		}
 
 		int bsearch( int array[], int key){
